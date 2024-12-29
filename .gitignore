@@ -1,4 +1,4 @@
 .direnv
 .build
 *.tar.gz
-MojoUserAgentRoleRetry-*
+Mojo-UserAgent-Role-Retry-*
