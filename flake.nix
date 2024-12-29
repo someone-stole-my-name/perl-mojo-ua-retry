@@ -32,7 +32,6 @@
         ] ++ devDeps;
       in
       with pkgs; {
-        packages.pene = perlAdditionalPackages.DistZillaPluginGit;
         devShells.default = mkShell {
           buildInputs = deps;
           shellHook = ''
